@@ -1,5 +1,5 @@
 # Ironic News Generator
-[![CI](https://github.com/atamaniuc/Fake-News-Generator/actions/workflows/ci.yml/badge.svg)](https://github.com/atamaniuc/Fake-News-Generator/actions/workflows/ci.yml)
+[![CI](https://github.com/atamaniuc/Ironic-News-Generator/actions/workflows/ci.yml/badge.svg)](https://github.com/atamaniuc/ironic-News-Generator/actions/workflows/ci.yml)
 
 Scrape RSS feeds, asynchronously transform articles into ironic news via an OpenAI-compatible API, then browse and chat per-article.
 
@@ -50,7 +50,7 @@ Backend:
 - Source counts API (`/api/sources`) and scheduled scraping enabled by default
 
 Frontend:
-- Fake news feed with source filter + total counts
+- ironic news feed with source filter + total counts
 - Article detail with “Original” toggle (HTML stripped for readability)
 - Per-article chat UI with streaming and fallback
 
